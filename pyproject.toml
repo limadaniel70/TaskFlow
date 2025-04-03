@@ -1,0 +1,8 @@
+[project]
+name = "taskflow"
+version = "0.1.0"
+description = "TaskFlow is a lightweight task manager built with Python, PyQt, and SQLite."
+authors = [{ name = "Daniel Lima" }]
+requires-python = ">=3.12"
+license = { text = "MIT" }
+readme = "README.md"
