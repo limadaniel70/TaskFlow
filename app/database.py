@@ -1,3 +1,4 @@
+# This project is licensed under the MIT License - see the LICENSE file for details.
 import sqlite3
 from contextlib import contextmanager
 from sqlite3 import Cursor

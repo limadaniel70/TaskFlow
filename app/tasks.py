@@ -1,3 +1,4 @@
+# This project is licensed under the MIT License - see the LICENSE file for details.
 from sqlite3 import Cursor
 
 # class Task:
