@@ -1,0 +1,11 @@
+black
+pylint
+isort
+
+pytest
+pytest-cov
+pytest-qt
+
+pyinstaller
+
+pip-tools

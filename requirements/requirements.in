@@ -1,0 +1,2 @@
+pyinstaller # build py executables
+pyside6
