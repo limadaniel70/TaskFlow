@@ -14,7 +14,7 @@ def get_tasks(cursor: Cursor) -> list[dict[str, str | int]]:
     Args:
         cursor (Cursor): The SQLite database cursor.
     Returns:
-        list[dict[str, str | int]]: A list of tasks, where each task is represented as a dictionary
+        tasks (list[dict[str, str | int]]): A list of tasks, where each task is represented as a dictionary
         containing its attributes (e.g., id, title, description, completed).
     """
     query = """SELECT * FROM Tasks"""
