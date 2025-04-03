@@ -15,7 +15,8 @@ def get_conn(db_name: str):
     Args:
         db_name (str): The name of the SQLite database file.
     Yields:
-        sqlite3.Connection: A SQLite connection object with `row_factory` set to return rows as dictionaries.
+        sqlite3.Connection: A SQLite connection object with `row_factory` set
+        to return rows as dictionaries.
     Ensures:
         The database connection is properly closed after use, even if an exception occurs.
     """
@@ -35,7 +36,8 @@ def init_db(cursor: Cursor):
     - id: An integer primary key that auto-increments.
     - title: A text field that cannot be null, representing the task title.
     - description: A text field for additional details about the task (optional).
-    - completed: An integer field with a default value of 0, indicating whether the task is completed (0 for incomplete, 1 for complete).
+    - completed: An integer field with a default value of 0, indicating whether
+    the task is completed (0 for incomplete, 1 for complete).
 
     Args:
         cursor (Cursor): A database cursor object used to execute SQL queries.
